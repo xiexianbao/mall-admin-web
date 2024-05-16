@@ -1,0 +1,15 @@
+<template>
+  <div class="app-header">
+    <slot />
+  </div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style lang="less">
+.app-header {
+  padding: 24px 16px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+</style>
